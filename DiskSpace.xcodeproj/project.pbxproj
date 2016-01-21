@@ -81,6 +81,9 @@
 		798EA2461C50A2790089FF31 /* MIMRangeGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 798EA2001C50A2790089FF31 /* MIMRangeGraph.m */; settings = {ASSET_TAGS = (); }; };
 		798EA2471C50A2790089FF31 /* MIMWallGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 798EA2041C50A2790089FF31 /* MIMWallGraph.m */; settings = {ASSET_TAGS = (); }; };
 		798EA2481C50A2790089FF31 /* MultiWallLongGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 798EA2061C50A2790089FF31 /* MultiWallLongGraph.m */; settings = {ASSET_TAGS = (); }; };
+		798EA24E1C50B5110089FF31 /* SS1.png in Resources */ = {isa = PBXBuildFile; fileRef = 798EA24C1C50B5110089FF31 /* SS1.png */; settings = {ASSET_TAGS = (); }; };
+		798EA24F1C50B5110089FF31 /* SS2.png in Resources */ = {isa = PBXBuildFile; fileRef = 798EA24D1C50B5110089FF31 /* SS2.png */; settings = {ASSET_TAGS = (); }; };
+		798EA2511C50B7120089FF31 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 798EA2501C50B7120089FF31 /* README.md */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -240,6 +243,9 @@
 		798EA2061C50A2790089FF31 /* MultiWallLongGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiWallLongGraph.m; sourceTree = "<group>"; };
 		798EA2071C50A2790089FF31 /* WallGraphDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallGraphDelegate.h; sourceTree = "<group>"; };
 		798EA24A1C50A7610089FF31 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		798EA24C1C50B5110089FF31 /* SS1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SS1.png; sourceTree = "<group>"; };
+		798EA24D1C50B5110089FF31 /* SS2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SS2.png; sourceTree = "<group>"; };
+		798EA2501C50B7120089FF31 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,6 +296,7 @@
 		798EA14D1C50A0680089FF31 /* DiskSpace */ = {
 			isa = PBXGroup;
 			children = (
+				798EA24B1C50B5110089FF31 /* ScreenShots */,
 				798EA1841C50A2780089FF31 /* DiskSpace Library */,
 				798EA24A1C50A7610089FF31 /* Constant.h */,
 				798EA1811C50A2250089FF31 /* DiskSpaceViewController.h */,
@@ -299,6 +306,7 @@
 				798EA1511C50A0680089FF31 /* AppDelegate.h */,
 				798EA1521C50A0680089FF31 /* AppDelegate.m */,
 				798EA1571C50A0680089FF31 /* Main.storyboard */,
+				798EA2501C50B7120089FF31 /* README.md */,
 				798EA15A1C50A0680089FF31 /* Assets.xcassets */,
 				798EA15C1C50A0680089FF31 /* LaunchScreen.storyboard */,
 				798EA15F1C50A0680089FF31 /* Info.plist */,
@@ -548,6 +556,15 @@
 			path = "Wall Graph";
 			sourceTree = "<group>";
 		};
+		798EA24B1C50B5110089FF31 /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				798EA24C1C50B5110089FF31 /* SS1.png */,
+				798EA24D1C50B5110089FF31 /* SS2.png */,
+			);
+			path = ScreenShots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -664,7 +681,9 @@
 				798EA23A1C50A2790089FF31 /* padded_pie_chart.png in Resources */,
 				798EA21E1C50A2790089FF31 /* monotone_location_pin_marker.png in Resources */,
 				798EA1591C50A0680089FF31 /* Main.storyboard in Resources */,
+				798EA24E1C50B5110089FF31 /* SS1.png in Resources */,
 				798EA2441C50A2790089FF31 /* trophy.png in Resources */,
+				798EA24F1C50B5110089FF31 /* SS2.png in Resources */,
 				798EA2351C50A2790089FF31 /* LeftTriangleIconBlack.png in Resources */,
 				798EA2401C50A2790089FF31 /* RightTriangleIconBlack.png in Resources */,
 				798EA2281C50A2790089FF31 /* BasicPieChartSample.png in Resources */,
@@ -726,6 +745,7 @@
 				798EA20E1C50A2790089FF31 /* MIMMeter.m in Sources */,
 				798EA2291C50A2790089FF31 /* BevelPieChart.m in Sources */,
 				798EA23B1C50A2790089FF31 /* PaddedPieChart.m in Sources */,
+				798EA2511C50B7120089FF31 /* README.md in Sources */,
 				798EA22D1C50A2790089FF31 /* DefaultInfoBox.m in Sources */,
 				798EA2131C50A2790089FF31 /* YAxisBand.m in Sources */,
 				798EA20B1C50A2790089FF31 /* MIM_MathClass.m in Sources */,
