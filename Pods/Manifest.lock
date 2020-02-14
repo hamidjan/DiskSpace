@@ -1,0 +1,16 @@
+PODS:
+  - Appirater (2.3.1)
+
+DEPENDENCIES:
+  - Appirater
+
+SPEC REPOS:
+  trunk:
+    - Appirater
+
+SPEC CHECKSUMS:
+  Appirater: 44a4651f7912a17dc906b655f0c215d5bb768b84
+
+PODFILE CHECKSUM: a96f87fb3a64cb064841d60f5a30f54bacb4438e
+
+COCOAPODS: 1.8.4
